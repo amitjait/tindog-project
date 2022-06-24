@@ -3,7 +3,7 @@
 }
 .header_section{
     width: 100%;
-    height: 60vh;
+    height: 55.3vh;
     background-color: #ff4c68;
 }
 
@@ -21,7 +21,8 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
-}.nav_titles{
+}
+.nav_titles{
     width: 300px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,12 @@ nav{
 }
 .nav_title{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    opacity: 70%;
+}
+.nav_title:hover{
+    cursor: pointer;
+    opacity: 100%;
 }
 .header_main{
     display: flex;
@@ -83,4 +89,29 @@ img{
     transform: rotate(30deg);
     padding-top: 40px;
     padding-left: 5%;
+}
+.mid_one{
+    
+    display: flex;
+    height: 50vh; 
+    
+}
+.one{
+    text-align: center;
+    margin: auto;
+    width: 20%;
+}
+.one_head{
+    font-size: 20px;
+    font-weight: 100;
+}
+.one_para{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 60%;
+    font-size: 15px;
+}
+.fa{
+    color: #FF4C68;
+    margin-bottom: 10px;
 }
