@@ -74,6 +74,7 @@ nav{
 }
 .btn:hover{
     cursor: pointer;
+    box-shadow: -1px 2px 15px 9px rgba(255, 255, 255, 0.95);
 }
 .android_btn{
     background-color: transparent;
@@ -84,7 +85,7 @@ nav{
     font-size: 1.2rem;
 
 }
-img{
+#rotate{
     height: 180%;
     transform: rotate(30deg);
     padding-top: 40px;
@@ -93,13 +94,15 @@ img{
 .mid_one{
     
     display: flex;
+    width: 70%;
     height: 50vh; 
-    
+    margin: auto;    
 }
 .one{
     text-align: center;
     margin: auto;
-    width: 20%;
+    padding-left:5rem;
+    padding-right: 5rem;
 }
 .one_head{
     font-size: 20px;
@@ -109,9 +112,50 @@ img{
     padding-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 60%;
-    font-size: 15px;
+    font-size: 12px;
 }
 .fa{
     color: #FF4C68;
     margin-bottom: 10px;
+}
+.sec_div{
+    background-color: #FC7F7F;
+    height: 70vh;
+    padding: 100px;
+}
+.sec_sec{
+    width: 70%;
+    /* background-color: blue; */
+    margin: 0px auto;
+    text-align: center;
+}
+#sec_img{
+    width: 10%;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sec_dog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#sec_head{
+    color: white;
+    font-size: 35px;
+}
+#sec_para{
+    font-style: italic;
+    padding-left: 10px;
+    color: white;
+}
+.under_sec{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo_img{
+    height: 40px;
+    margin: 50px 80px 50px 80px;
 }
